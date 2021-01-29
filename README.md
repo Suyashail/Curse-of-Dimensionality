@@ -13,3 +13,14 @@ The curse of dimensionality introduces the following problems:
 In this sample notebook, we compare the results of sampling points from an n-dimensional cube and an n-dimensional sphere. Sampling of the points from an n-dimensional sphere results in improvements on the first and the second problem. 
 
 This code is still in beta/developmental state (only intended for understanding of concept). Any improvements for the same are encouraged.
+
+Results:
+1. Sampling in Cartesian coordinates:
+* Number of points on surface of n-D cube: 100
+* Mean distance: 13.051196364812087
+* Variance: 0.044008756500694884
+
+2. Sampling in Polar coordinates:
+* Number of points on surface of n-D sphere: 10
+* Mean distance: 1.0778633659601369
+* Variance: 0.14210096471024558
